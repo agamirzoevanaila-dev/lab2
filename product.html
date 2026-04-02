@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Товар</title>
+    <link rel="stylesheet" href="3.1.css">
+</head>
+<body>
+
+<header>
+    <h2>BookLand</h2>
+    <nav>
+        <a href="3.1.html">Главная</a>
+        <a href="#">Каталог</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+        <a href="#">Корзина</a>
+    </nav>
+</header>
+<main class="product-page">
+    <!--Фотогалерея-->
+    <h1>Гордость и предубеждение</h1>
+    <div class="card">
+        <section class="gallery">
+            <img src="Book1.jpg" alt="книга"  class="main-img" id="big">
+            <div class="small">
+                <img src="Book1.jpg" onclick="big.src=this.src">
+                <img src="zad1.jpeg" onclick="big.src=this.src">
+                <img src="xz.jpeg" onclick="big.src=this.src" >
+                <img src="raz.jpeg" onclick="big.src=this.src">
+            </div>
+        </section>
+    
+        <div class="opisanie">
+            
+            <!--Описание-->
+            <section>
+                <h2>Описание</h2>
+                <p>В данной книге представлен один из самых известных англоязычных романов о любви всех времен в блестящем переводе признанного классика переводческого искусства — Иммануэля Самойловича Маршака. Дочь мелкопоместного сквайра Беннета Элизабет невзлюбила великосветского столичного сноба мистера Дарси. В свою очередь Дарси платит язвительной барышне взаимной неприязнью и едва удерживается в рамках вежливости... так, по крайней мере, оно выглядит со стороны. Однако в действительности чувства обоих далеко не столь однозначны...</p>
+                <!--Характеристики-->
+            <section>
+            <ul>
+                <h2>Характеристики</h2>
+                <li>Автор: Джейн Остин</li>
+                <li>Жанр: Роман</li>
+                <li>Язык: Русский</li>
+            </ul>
+            </section>
+            </section>
+            <button>Добавить в корзину</button>
+        </div>
+    </div>    
+</main>
+
+
+
+</body>
+</html>
